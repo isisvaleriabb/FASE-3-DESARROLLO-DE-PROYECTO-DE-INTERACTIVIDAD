@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+body {
+	background-color: #ebeae9;
+}
+
+html {
+	font-family: 'Open Sans', sans-serif;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #808B96;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #E59866;
+}
+
+
+img {
+  border-radius: 8px;
+}
+<img src="logo.jpg" alt="logo">
+
+.btn {
+	border-radius: 0;
+}
+
+
+.bold {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 3.5rem;
+}
+
+h2 {
+	line-height: 110%;
+	font-size: 2.2rem;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.min-100 {
+	min-height: 75%;
+}
+
+
+
+
+
+.footer {
+	font-size: 1.2em;
+	color: #000;
+	padding-top: 7rem;
+	padding-bottom: 7rem;
+}
+
+@media (max-width: 767px) {
+	.footer {
+		font-size: 1.4em;
+		line-height: 180%;
+	}
+}
+.navbar-brand{
+	font-weight: bold;
+	font-size: 1.5rem;
+
+}
+
